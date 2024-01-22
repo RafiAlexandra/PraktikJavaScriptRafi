@@ -1,3 +1,7 @@
+</script>
+</body>
+</html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,19 +10,24 @@
 </head>
 <body>
 <script>
-    const negara = "Tridad and tubago";
-    const benua = "Amerika selatan";
-    let populasi = 1.526;
-    const kepulauan = false;
-    const bahasa = "Bahasa inggris";
+    let beratmadan = 55;
+    let tinggimadan = 150;
+    let beratjoan = 60;
+    let tinggijoan = 150;
 
-    if(kepulauan == true){
-    console.log('negara anda kepulauan');
-    }else{
-    console.log('negara anda bukan kepulaun');
-    }
+    const imtmadan = beratmadan / tinggimadan** 2;
+    const imtjoan = beratjoan / tinggijoan** 2;
 
-    console.log(`Negara ${negara} adalah negara yang berada di benua ${benua},dengan pupulasi sebanyak ${populasi} juta jiwa,bahasa nasional ${bahasa}`)
+    const madantinggiimt = imtmadan > imtjoan;
+    console.log(`IMT madan : ${imtmadan}`);
+    console.log(`IMT joan  : ${imtjoan}`);
+    console.log(`IMT madan lebih tinggi dari IMT joan: ${madantinggiimt}`)
+
+    console.log(`Nilai IMT Madan (${imtmadan}) Lebih tinggi Dari Joan (${imtjoan}) `)
+    console.log(`Nilai IMT Joan (${imtmadan}) Lebih tinggi Dari Madan (${imtjoan}) `)
+    
+
+
 </script>
 </body>
 </html>

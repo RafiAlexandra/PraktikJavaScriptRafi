@@ -15,11 +15,13 @@
     const imtjoan = beratjoan / tinggijoan** 2;
 
     const madantinggiimt = imtmadan > imtjoan;
+
+    if(madantinggiimt == true){
+        console.log(`IMT Madan (${imtmadan.toFixed[1]}) lebih tinggi dari IMT Joan (${imtjoan.toFixed[1]})`);
+    } else{
+        console.log(`IMT Joan (${imtjoan.toFixed[1]})lebih tinggi dari IMT Madan (${imtmadan.toFixed[1]}) `);
+    }
+
     console.log(`IMT madan : ${imtmadan}`);
     console.log(`IMT joan  : ${imtjoan}`);
     console.log(`IMT madan lebih tinggi dari IMT joan: ${madantinggiimt}`)
-
-
-</script>
-</body>
-</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    //contoh 1
+    let nilaiAkhir = prompt("Masukkan Nilai Akhir");
+    if(nilaiAkhir >= 80 && nilaiAkhir <= 100 ){
+        document.write(`Nilai Anda A (${nilaiAkhir})`);
+    } else if(nilaiAkhir >= 70 && nilaiAkhir <= 80){
+        document.write(`Nilai Anda b (${nilaiAkhir})`);
+    } else if(nilaiAkhir >= 60 && nilaiAkhir <= 70){
+        document.write(`Nilai Anda c (${nilaiAkhir})`);
+    } else{
+        document.write("anda belum mengikuti ujian");
+    }
+
+    //contoh 2
+    let userRole = prompt("Login sebagai: ");
+    if (userRole == "admin"){
+        document.write("Selamat datang Admin");
+    } else if (userRole == "operator"){
+        document.write('Selamat datang Operator')
+    }else{
+        document.write('Anda dilarang mengakses halaman')
+    }
+
+
+</script>
+</body>
+</html>
